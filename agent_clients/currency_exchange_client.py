@@ -20,6 +20,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 async def create_client(url):
+    """Returns an A2A client from url deployment.
+    
+    Note that the A2ACardResolver only takes absolute URL without endpoint (for e.g. http://localhost:8000)
+    The A2A client instantiation takes the URL with the endpoint (for e.g. http://localhost:8000/currency)
+    """
     try:
         card_resolver = A2ACardResolver(url)
         agent_card: AgentCard = card_resolver.get_agent_card()
