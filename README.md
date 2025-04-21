@@ -1,5 +1,8 @@
 # reimagined-barnacle
-This little GitHub repository introduces the agent to agent (A2A) protocol idea. We build and explain what the A2A is about, and why it's still incomplete.
+This little GitHub repository introduces the agent to agent (A2A) protocol idea. I build and explain what the A2A is about, and why it's still incomplete.
+
+#### Companion Medium article:
+Coming soon!
 
 <p align="center">
     <img src="./images/a2a_demo_arch.png">
