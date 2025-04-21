@@ -5,7 +5,7 @@ This little GitHub repository introduces the agent to agent (A2A) protocol idea.
 Coming soon!
 
 <p align="center">
-    <img src="./images/a2a_demo_arch.png">
+    <img src="./images/groupchat_agents.png">
 </p>
 
 There is therefore no "app". The main notebook is: `test_a2a.ipynb`.
