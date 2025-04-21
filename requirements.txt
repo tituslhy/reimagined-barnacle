@@ -1,2 +1,3 @@
 llama-index
-llama-index-llms-ollama
+httpx
+jwcrypto
