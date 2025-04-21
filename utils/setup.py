@@ -8,7 +8,7 @@ def setup_paths():
     It adds the A2A path to the system path if it is not already present.
     """
     __curdir__ = os.getcwd()
-    if "notebooks" in __curdir__ or "utils" in __curdir__ or "src" in __curdir__:
+    if "notebooks" in __curdir__ or "utils" in __curdir__ or "src" in __curdir__ or "agent_protocols" in __curdir__:
         a2a_path = os.path.abspath("../A2A")
     else:
         a2a_path = os.path.abspath("A2A")
