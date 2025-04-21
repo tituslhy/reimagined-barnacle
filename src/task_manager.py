@@ -125,7 +125,7 @@ class CurrencyTaskManager(InMemoryTaskManager):
             await self.send_task_notification(latest_task)
             
             # Send artifact updates
-            task_artifact
+            task_artifact = ""
             
         except:
             pass
