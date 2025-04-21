@@ -66,7 +66,9 @@ async def create_currency_agent_server(mcp_client_url: str = "http://localhost:3
 
 if __name__ == "__main__":
     import asyncio
+    
     mcp_client_url= "http://localhost:3000/sse"
     print(f"🚀 Starting currency agent server on http://{host}:{port}{endpoint}")
     server = asyncio.run(create_currency_agent_server(mcp_client_url))
-    uvicorn.run(server.app, host=host, port=port)
+    server.start()
+    # uvicorn.run(server.app, host=host, port=port)
