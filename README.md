@@ -2,7 +2,7 @@
 This little GitHub repository introduces the agent to agent (A2A) protocol idea. I build and explain what the A2A is about, and why it's still incomplete.
 
 #### Companion Medium article:
-Coming soon!
+[Agent-to-Agent protocols: A story still being written!](https://medium.com/@tituslhy/agent-to-agent-protocols-a-story-still-being-written-e7e1ffbf3e80)
 
 <p align="center">
     <img src="./images/groupchat_agents.png">
