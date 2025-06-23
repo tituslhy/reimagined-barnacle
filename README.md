@@ -1,4 +1,4 @@
-# reimagined-barnacle
+# Agent-to-Agent Protocol Playground
 This little GitHub repository introduces the agent to agent (A2A) protocol idea. I build and explain what the A2A is about, and why it's still incomplete.
 
 #### Companion Medium article:
